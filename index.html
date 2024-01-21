@@ -230,7 +230,7 @@
         <div class="container mx-auto ">
             <div>
                 <div class="flex justify-between gap-5 flex-col lg:flex-row">
-                    <div class="flex justify-center lg:justify-start">
+                    <div class="flex justify-center lg:justify-around lg:pl-10">
                         <img src="./images/cup.png" alt="">
                     </div>
                     <div class="text-xl flex items-center gap-5 flex-col lg:flex-row">
@@ -240,7 +240,7 @@
                 </div>
 
             </div>
-            <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 p-10 gap-4 text-base-content text-gray-700">
+            <div class="grid grid-cols-2 p-5 lg:grid-cols-4 lg:p-10 gap-4 text-base-content  text-gray-700">
                 <nav class="flex flex-col">
                   <header class="footer-title">Services</header> 
                   <a class="link link-hover">Branding</a>
@@ -261,8 +261,8 @@
                   <a class="link link-hover">Privacy policy</a>
                   <a class="link link-hover">Cookie policy</a>
                 </nav> 
-                <form>
-                  <header class="footer-title">Newsletter</header> 
+                <form class="flex flex-col justify-start">
+                  <header>Newsletter</header> 
                   <fieldset class="form-control max-w-80">
                     <label class="label">
                       <span class="label-text">Enter your email address</span>
@@ -271,9 +271,7 @@
                       <input type="email" placeholder="username@site.com" class="text-sm outline-none border-b-[1px] border-black bg-transparent max-w-36" /> 
                       <button class="">
                         <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-full text-white p-2">
-                            <i class="fa-solid fa-arrow-right">
-
-                            </i>
+                            <i class="fa-solid fa-arrow-right"></i>
                         </div>
                     </button>
                     </div>
