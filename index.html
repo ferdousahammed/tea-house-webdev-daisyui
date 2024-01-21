@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c44d6b9cbb.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
           theme: {
@@ -225,7 +226,69 @@
 
 
     </main>
-    <footer>
+    <footer class="mx-auto bg-orange-50 py-8 lg:py-28">
+        <div class="container mx-auto ">
+            <div>
+                <div class="flex justify-between gap-5 flex-col lg:flex-row">
+                    <div class="flex justify-center lg:justify-start">
+                        <img src="./images/cup.png" alt="">
+                    </div>
+                    <div class="text-xl flex items-center gap-5 flex-col lg:flex-row">
+                        <p class=" font-medium text-gray-500">Ready to get strated?</p>
+                        <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold">Get Started</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 p-10 gap-4 text-base-content text-gray-700">
+                <nav class="flex flex-col">
+                  <header class="footer-title">Services</header> 
+                  <a class="link link-hover">Branding</a>
+                  <a class="link link-hover">Design</a>
+                  <a class="link link-hover">Marketing</a>
+                  <a class="link link-hover">Advertisement</a>
+                </nav> 
+                <nav class="flex flex-col">
+                  <header class="footer-title">Company</header> 
+                  <a class="link link-hover">About us</a>
+                  <a class="link link-hover">Contact</a>
+                  <a class="link link-hover">Jobs</a>
+                  <a class="link link-hover">Press kit</a>
+                </nav> 
+                <nav class="flex flex-col">
+                  <header class="footer-title">Legal</header> 
+                  <a class="link link-hover">Terms of use</a>
+                  <a class="link link-hover">Privacy policy</a>
+                  <a class="link link-hover">Cookie policy</a>
+                </nav> 
+                <form>
+                  <header class="footer-title">Newsletter</header> 
+                  <fieldset class="form-control max-w-80">
+                    <label class="label">
+                      <span class="label-text">Enter your email address</span>
+                    </label> 
+                    <div class="max-w-48">
+                      <input type="email" placeholder="username@site.com" class="text-sm outline-none border-b-[1px] border-black bg-transparent max-w-36" /> 
+                      <button class="">
+                        <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-full text-white p-2">
+                            <i class="fa-solid fa-arrow-right">
+
+                            </i>
+                        </div>
+                    </button>
+                    </div>
+                  </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer footer-center p-4 text-base-content">
+            <aside>
+              <p>© 2027 UIDesign.to - All rights reserved.</p>
+            </aside>
+        </div>
+        
+
 
     </footer>
     
